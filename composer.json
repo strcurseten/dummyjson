@@ -1,0 +1,17 @@
+{
+    "name": "composer/composer",
+    "autoload": {
+        "psr-4": {
+            "Composer\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "strcurseten",
+            "email": "fernandez.kirstenpear@auf.edu.ph"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    }
+}
