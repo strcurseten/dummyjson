@@ -11,7 +11,7 @@ $response = $client->get('https://dummyjson.com/users');
 $code = $response->getStatusCode();
 $body = $response->getBody();
 $users_list = json_decode($body, true);
-//var_dump($users_list);
+var_dump($users_list);
 
 ?>
 
